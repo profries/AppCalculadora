@@ -92,12 +92,17 @@ const styles = StyleSheet.create({
     flex: 1
   },
   botoesLinhaContainer:{
-    flex: 1
+    flex: 1,
+    flexDirection:'row',
   },
   botao:{
-    flex: 1
+    flex: 1,
+    justifyContent: 'center',
+    alignItems:'center',
+    margin: 1,
+    backgroundColor:'#DDD',
   },
   botaoTexto:{
-    flex: 1
+    fontSize: 24,
   }
 });
